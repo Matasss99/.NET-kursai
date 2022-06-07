@@ -48,11 +48,13 @@
 
             Console.WriteLine("Mano vardas Matas");
             Console.WriteLine(Console.ReadLine());
-            Console.WriteLine("įrašykite savo pirma vardo raidę");
+            Console.WriteLine("įrašykite savo pirma vardo raidę ");
             //Console.ReadKey();
-            var vardas = Console.ReadLine();
-            Console.WriteLine("įvesta raidė: {0}", vardas);
-                
+            //var vardas = Console.ReadLine();
+            Console.WriteLine("įvesta raidė: {0}", (int)Console.ReadKey().KeyChar);
+            Console.WriteLine("įvesta raidė: {0}", (int)Console.ReadKey().KeyChar);
+
+
 
 
 
