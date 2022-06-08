@@ -29,7 +29,7 @@
             Console.WriteLine($"o štai mano pakartojimas {Console.ReadLine()}" );
 
             Console.WriteLine("Įveskite raidę");
-            Console.WriteLine("Įvestas simbolis {0}", Console.Readkey().KeyChar);
+            Console.WriteLine("Įvestas simbolis {0}", Console.Readkey.KeyChar);
 
             Console.WriteLine("Įveskite savo vardą, o aš atspėsiu pirmą raidę:");
             Console.WriteLine("o štai mano spėjimas \"" + Console.ReadLine()[0] + "\"");
@@ -71,7 +71,7 @@
 
             Console.WriteLine("      {0}         {1}", Console.ReadLine(), Console.ReadLine()); 
 
-            Console.WriteLine("\n\n\n{0}" , Console.ReadLine()); */
+            Console.WriteLine("\n\n\n{0}" , Console.ReadLine()); 
 
             Console.WriteLine(@"
                             *******************
@@ -84,7 +84,18 @@
                 **           ^           ^              **
                    **         ^^^^^^^^^^^            **
                       **                         **
-                        *************************".Replace("*", "\""));
+                        *************************".Replace("*", "\"")); */
+
+            string kintamasis = "Hello World!"; //string = tekstas
+            Console.WriteLine(kintamasis);
+            var stringkintamasis = "tekstas"; //var = galima naudoti ne tik teksta
+            string tuscias = ""; // tuscias
+            string nulas = null; //nieko nera
+            string laisvaerdvė = "     "; // tuscia erdve tarp kabuciu
+
+            string kompozicija = string.Format("{0}" , stringkintamasis); //kompozicija
+            string interpoliacija = $"{stringkintamasis}";
+
 
 
         }
