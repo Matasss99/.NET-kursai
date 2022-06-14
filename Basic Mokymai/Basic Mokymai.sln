@@ -5,7 +5,11 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic Mokymai", "Basic Mokymai\Basic Mokymai.csproj", "{4AFD66C3-01F9-47A3-8157-B7CD79FC2829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tower Of Hanoi", "Tower Of Hanoi\Tower Of Hanoi.csproj", "{65F38193-675A-4C92-882B-3214E59DC918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tower Of Hanoi", "Tower Of Hanoi\Tower Of Hanoi.csproj", "{65F38193-675A-4C92-882B-3214E59DC918}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kintamieji", "Kintamieji\Kintamieji.csproj", "{0CB34D04-E3B7-4AEC-9A09-DE9076D4EBC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tipuKonversijos", "tipuKonversijos\tipuKonversijos.csproj", "{3FAB8E34-ADA5-4B50-BF95-2D087642DDDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{65F38193-675A-4C92-882B-3214E59DC918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65F38193-675A-4C92-882B-3214E59DC918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65F38193-675A-4C92-882B-3214E59DC918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB34D04-E3B7-4AEC-9A09-DE9076D4EBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB34D04-E3B7-4AEC-9A09-DE9076D4EBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB34D04-E3B7-4AEC-9A09-DE9076D4EBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB34D04-E3B7-4AEC-9A09-DE9076D4EBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAB8E34-ADA5-4B50-BF95-2D087642DDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAB8E34-ADA5-4B50-BF95-2D087642DDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAB8E34-ADA5-4B50-BF95-2D087642DDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAB8E34-ADA5-4B50-BF95-2D087642DDDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

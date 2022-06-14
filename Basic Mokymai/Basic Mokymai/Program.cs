@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+             /* Console.WriteLine("Hello, World!");
 
             Console.Write("išvedimas ");
             Console.Write("vienoje ");
@@ -23,13 +23,13 @@
             Console.WriteLine("tekstas \t idedamas \t i \"kabutes\"");
 
             Console.WriteLine("-----Press any key to continue-----");
-            Console.Clear();
+            
 
-            /*Console.WriteLine("Įveskite savo vardą, o aš jį pakartosiu:");
+            Console.WriteLine("Įveskite savo vardą, o aš jį pakartosiu:");
             Console.WriteLine($"o štai mano pakartojimas {Console.ReadLine()}" );
 
             Console.WriteLine("Įveskite raidę");
-            Console.WriteLine("Įvestas simbolis {0}", Console.Readkey.KeyChar);
+            Console.WriteLine("Įvestas simbolis {0}", Console.ReadKey().KeyChar);
 
             Console.WriteLine("Įveskite savo vardą, o aš atspėsiu pirmą raidę:");
             Console.WriteLine("o štai mano spėjimas \"" + Console.ReadLine()[0] + "\"");
@@ -84,7 +84,7 @@
                 **           ^           ^              **
                    **         ^^^^^^^^^^^            **
                       **                         **
-                        *************************".Replace("*", "\"")); */
+                        *************************".Replace("*", "\"")); 
 
             string kintamasis = "Hello World!"; //string = tekstas
             Console.WriteLine(kintamasis);
@@ -94,7 +94,23 @@
             string laisvaerdvė = "     "; // tuscia erdve tarp kabuciu
 
             string kompozicija = string.Format("{0}" , stringkintamasis); //kompozicija
-            string interpoliacija = $"{stringkintamasis}";
+            string interpoliacija = $"{stringkintamasis}"; 
+
+            Console.Clear(); */
+
+
+
+
+
+            
+            
+
+            
+
+
+
+
+
 
 
 

@@ -6,90 +6,33 @@
         {
             Console.WriteLine("Tower of Hanoi");
             Console.WriteLine("\nUŽDUOTIS nupieškite Tower of Hanoi. Piešiniui naudokite kintamuosius");
-            string eilute1Stulpelis1 = "|";
-            string eilute2Stulpelis1 = "|";
-            string eilute3Stulpelis1 = "|";
-            string eilute4Stulpelis1 = "|";
-            string eilute5Stulpelis1 = "|";
-            string eilute1Stulpelis2 = "|";
-            string eilute2Stulpelis2 = "|";
-            string eilute3Stulpelis2 = "|";
-            string eilute4Stulpelis2 = "|";
-            string eilute5Stulpelis2 = "|";
-            string eilute1Stulpelis3 = "|";
-            string eilute2Stulpelis3 = "|";
-            string eilute3Stulpelis3 = "|";
-            string eilute4Stulpelis3 = "|";
-
-  
-            string pirmaEgle = "#";
-            string antraEgle = "##";
-            string treciaEgle = "###";
-            string ketvirtaEgle = "####";
-            string penktaEgle = "#####";
+            string eilute1Stulpelis1 = "    |    ";
+            string eilute2Stulpelis1 = "   #|#   ";
+            string eilute3Stulpelis1 = "  ##|##  ";
+            string eilute4Stulpelis1 = " ###|### ";
+            string eilute5Stulpelis1 = "####|####";
 
 
-            Console.WriteLine($"1eil.\t {pirmaEgle}{eilute1Stulpelis1}{pirmaEgle}\t      {eilute1Stulpelis2}\t           {eilute1Stulpelis3}");
-            Console.WriteLine($"2eil.   {antraEgle}{eilute2Stulpelis1}{antraEgle}\t      {eilute2Stulpelis2}\t           {eilute2Stulpelis3}");
-            Console.WriteLine($"3eil.  {treciaEgle}{eilute3Stulpelis1}{treciaEgle}\t      {eilute3Stulpelis2}\t           {eilute3Stulpelis3}");
-            Console.WriteLine($"4eil. {ketvirtaEgle}{eilute4Stulpelis1}{ketvirtaEgle}\t      {eilute4Stulpelis2}\t           {eilute4Stulpelis3}");
-            Console.WriteLine($"5eil.{penktaEgle}{eilute5Stulpelis1}{penktaEgle}      {eilute5Stulpelis2}\t           {eilute3Stulpelis3}");
-            Console.WriteLine("   ----1stulp-------2stulp-------3stulp----");
 
-
+            Console.WriteLine(@"
+ Eil.1 {0} {5} {9}
+ Eil.2 {1} {6} {10}
+ Eil.3 {2} {7} {11}  
+ Eil.4 {3} {8} {12}
+ Eil.5 {4}", eilute1Stulpelis1, eilute2Stulpelis1, 
+             eilute3Stulpelis1, eilute4Stulpelis1, 
+             eilute5Stulpelis1, eilute1Stulpelis1, 
+             eilute1Stulpelis1, eilute1Stulpelis1, 
+             eilute1Stulpelis1, eilute1Stulpelis1, 
+             eilute1Stulpelis1, eilute1Stulpelis1, 
+             eilute1Stulpelis1);
+            Console.WriteLine("    ----1stulp----2stulp----3stulp----");
+            
+            
             Console.WriteLine("----------Tęskite Toliau----------", Console.ReadKey());
 
 
-            Console.WriteLine($"1eil.{penktaEgle}{eilute1Stulpelis1}{penktaEgle}      {eilute1Stulpelis2}\t           {eilute1Stulpelis3}");
-            Console.WriteLine($"2eil. {ketvirtaEgle}{eilute2Stulpelis1}{ketvirtaEgle}\t      {eilute2Stulpelis2}\t           {eilute2Stulpelis3}");
-            Console.WriteLine($"3eil.  {treciaEgle}{eilute3Stulpelis1}{treciaEgle}\t      {eilute3Stulpelis2}\t           {eilute3Stulpelis3}");
-            Console.WriteLine($"4eil.   {antraEgle}{eilute4Stulpelis1}{antraEgle}\t      {eilute4Stulpelis2}\t           {eilute4Stulpelis3}");
-            Console.WriteLine($"5eil.    {pirmaEgle}{eilute5Stulpelis1}{pirmaEgle}          {eilute5Stulpelis2}\t           {eilute3Stulpelis3}");
-            Console.WriteLine("   ----1stulp-------2stulp-------3stulp----");
-
-
-            Console.WriteLine("----------Tęskite Toliau----------", Console.ReadKey());
-
-
-            Console.WriteLine($"1eil.\t  {eilute1Stulpelis1}           {eilute1Stulpelis2}\t           {eilute1Stulpelis3}");
-            Console.WriteLine($"2eil.     {eilute2Stulpelis1}\t      {eilute2Stulpelis2}\t           {eilute2Stulpelis3}");
-            Console.WriteLine($"3eil.     {eilute3Stulpelis1}\t      {eilute3Stulpelis2}\t           {eilute3Stulpelis3}");
-            Console.WriteLine($"4eil.     {eilute4Stulpelis1}\t      {eilute4Stulpelis2}\t           {eilute4Stulpelis3}");
-            Console.WriteLine($"5eil.     {eilute5Stulpelis1}           {eilute5Stulpelis2}\t           {eilute3Stulpelis3}");
-            Console.WriteLine("   ----1stulp-------2stulp-------3stulp----");
-
-
-            Console.WriteLine("----------Tęskite Toliau----------", Console.ReadKey());
-
-
-            Console.WriteLine($"1eil.\t  {eilute1Stulpelis1}           {eilute1Stulpelis2}\t           {eilute1Stulpelis3}");
-            Console.WriteLine($"2eil.     {eilute2Stulpelis1}\t      {eilute2Stulpelis2}\t           {eilute2Stulpelis3}");
-            Console.WriteLine($"3eil.     {eilute3Stulpelis1}\t      {eilute3Stulpelis2}\t           {eilute3Stulpelis3}");
-            Console.WriteLine($"4eil.     {eilute4Stulpelis1}\t      {eilute4Stulpelis2}\t           {eilute4Stulpelis3}");
-            Console.WriteLine($"5eil. {ketvirtaEgle}{eilute5Stulpelis1}{ketvirtaEgle}   {ketvirtaEgle}{eilute5Stulpelis2}{ketvirtaEgle}    {ketvirtaEgle}{eilute3Stulpelis3}{ketvirtaEgle}");
-            Console.WriteLine("   ----1stulp-------2stulp-------3stulp----");
-
-
-            Console.WriteLine("----------Tęskite Toliau----------", Console.ReadKey());
-
-
-            Console.WriteLine($"1eil.\t  {eilute1Stulpelis1}           {eilute1Stulpelis2}\t           {eilute1Stulpelis3}");
-            Console.WriteLine($"2eil.     {eilute2Stulpelis1}\t      {eilute2Stulpelis2}\t           {eilute2Stulpelis3}");
-            Console.WriteLine($"3eil.     {eilute3Stulpelis1}\t      {eilute3Stulpelis2}\t           {eilute3Stulpelis3}");
-            Console.WriteLine($"4eil.     {eilute4Stulpelis1}\t      {eilute4Stulpelis2}\t          {pirmaEgle}{eilute4Stulpelis3}{pirmaEgle}");
-            Console.WriteLine($"5eil. {ketvirtaEgle}{eilute5Stulpelis1}{ketvirtaEgle}    {treciaEgle}{eilute5Stulpelis2}{treciaEgle}       {antraEgle}{eilute3Stulpelis3}{antraEgle}");
-            Console.WriteLine("   ----1stulp-------2stulp-------3stulp----");
-
-
-            Console.WriteLine("----------Tęskite Toliau----------", Console.ReadKey());
-
-
-           /* Console.WriteLine($"1eil.\t  {eilute1Stulpelis1}           {eilute1Stulpelis2}\t           {eilute1Stulpelis3}"); //nepabaigta
-            Console.WriteLine($"2eil.     {eilute2Stulpelis1}\t      {eilute2Stulpelis2}\t           {eilute2Stulpelis3}");
-            Console.WriteLine($"3eil.     {eilute3Stulpelis1}\t      {eilute3Stulpelis2}\t           {eilute3Stulpelis3}");
-            Console.WriteLine($"4eil.     {eilute4Stulpelis1}\t      {eilute4Stulpelis2}\t          {pirmaEgle}{eilute4Stulpelis3}{pirmaEgle}");
-            Console.WriteLine($"5eil. {ketvirtaEgle}{eilute5Stulpelis1}{ketvirtaEgle}    {treciaEgle}{eilute5Stulpelis2}{treciaEgle}       {antraEgle}{eilute3Stulpelis3}{antraEgle}"); /*
-            Console.WriteLine("   ----1stulp-------2stulp-------3stulp----");
+         
         }
     }
 }
