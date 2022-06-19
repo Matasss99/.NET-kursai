@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tipuKonversijos", "tipuKonv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatematiniaiOperatoriai1", "MatematiniaiOperatoriai1\MatematiniaiOperatoriai1.csproj", "{C4667798-90D3-4007-A03C-400D01CF64E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatoriai", "Operatoriai\Operatoriai.csproj", "{0B8E6D98-BCF2-48B4-84D7-328BB2FFC304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operatoriai", "Operatoriai\Operatoriai.csproj", "{0B8E6D98-BCF2-48B4-84D7-328BB2FFC304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termometras ir Kelias", "Termometras ir Kelias\Termometras ir Kelias.csproj", "{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{0B8E6D98-BCF2-48B4-84D7-328BB2FFC304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8E6D98-BCF2-48B4-84D7-328BB2FFC304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8E6D98-BCF2-48B4-84D7-328BB2FFC304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

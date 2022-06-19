@@ -68,13 +68,13 @@
             //parsinimas = tekstas keiciamas i skaiciu
             string skaiciusString = "100";
             string skaiciusDidelisString = "99999999999999999";
-            string tesktas = "tekstas";
+            string tekstas = "tekstas";
             int skaiciusIntParsintas = int.Parse(skaiciusString);
             Console.WriteLine($"skaiciusString + 1 {skaiciusString + 1}");
             Console.WriteLine($"skaiciusIntParsintas + 1 = {skaiciusIntParsintas + 1}");
 
             // int skaiciusIntParsintas1 = int.Parse(skaiciusDidelisString); //nuluzta
-            int tekstasIntParsintas = int.Parse(tesktas);
+            int tekstasIntParsintas = int.Parse(tekstas);
 
 
 
