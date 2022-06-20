@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatematiniaiOperatoriai1", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operatoriai", "Operatoriai\Operatoriai.csproj", "{0B8E6D98-BCF2-48B4-84D7-328BB2FFC304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termometras ir Kelias", "Termometras ir Kelias\Termometras ir Kelias.csproj", "{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Termometras ir Kelias", "Termometras ir Kelias\Termometras ir Kelias.csproj", "{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loginiai", "Loginiai\Loginiai.csproj", "{AEC8B20F-9E14-4D01-89A4-17478468810A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IF1", "IF1\IF1.csproj", "{0E0AFD45-912F-465D-AFE4-F0A02E3CBC55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1430C44-4B2F-420C-B2AA-E0C3C227ADC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC8B20F-9E14-4D01-89A4-17478468810A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC8B20F-9E14-4D01-89A4-17478468810A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC8B20F-9E14-4D01-89A4-17478468810A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC8B20F-9E14-4D01-89A4-17478468810A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0AFD45-912F-465D-AFE4-F0A02E3CBC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0AFD45-912F-465D-AFE4-F0A02E3CBC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0AFD45-912F-465D-AFE4-F0A02E3CBC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0AFD45-912F-465D-AFE4-F0A02E3CBC55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
